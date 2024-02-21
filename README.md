@@ -21,8 +21,8 @@ $ docker compose up
 or
 ```batch
 $ git clone https://github.com/aviam3/attachment-service/
-$ npm install
 $ cd attachment-service
+$ npm install
 $ npm run start
 ```
 ## Local Development Setup
