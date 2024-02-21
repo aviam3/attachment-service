@@ -1,0 +1,15 @@
+version: "1.0"
+
+services:
+  express-app:
+    build:
+      context: .
+      target: dev
+    ports: 
+      - 3000:3000
+    environment:
+      - .env
+    volumes:
+      - ./:/src/app/
+      - /src/app/node_modules
+    command: npm run dev
